@@ -1,1 +1,48 @@
+# Variáveis de ambiente (chaves de API, por exemplo)
 .env
+
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos e diretórios de configuração do IDE
+*.idea/
+*.vscode/
+*.classpath
+*.project
+*.settings/
+*.launch
+
+# Arquivos de build temporários
+*.bin
+*.elf
+*.hex
+*.o
+*.d
+
+# Bibliotecas locais de dependências
+/libraries/
+
+# Logs de depuração
+*.log
+*.out
+*.tmp
+
+# Arquivos criados por scripts de compilação
+/build/
+
+# Configuração e cache do Arduino IDE
+*.ino.*
+*.arduino15/
+*.cache/
+*.boardconfig/
+*.build.options.json
+
+# Arquivos Python auxiliares (se aplicável ao projeto)
+*.pyc
+__pycache__/
+
+# Arquivos de resultado ou teste
+/tests/results/
+*.test_output
